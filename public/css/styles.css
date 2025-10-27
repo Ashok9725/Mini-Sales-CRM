@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.lead-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lead-card h5 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+.status-sold {
+  color: green;
+  font-weight: bold;
+}
+
+.status-not-sold {
+  color: red;
+  font-weight: bold;
+}
+
+.status-open {
+  color: orange;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .lead-card {
+    margin-bottom: 15px;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
