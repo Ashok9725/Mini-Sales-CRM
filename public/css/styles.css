@@ -1,52 +1,45 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-}
-
 header {
-  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.lead-card {
-  margin-bottom: 20px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+nav a {
+  text-decoration: none;
+  font-weight: 500;
 }
 
-.lead-card h5 {
-  margin-bottom: 10px;
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+button {
+  cursor: pointer;
+}
+:root {
+  --primary: #0d6efd;
+  --secondary: #6c757d;
+  --light: #f8f9fa;
+  --dark: #212529;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.nav-link {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.table th, .table td {
+  vertical-align: middle;
 }
 
 .btn {
-  margin-right: 5px;
-}
-
-.status-sold {
-  color: green;
-  font-weight: bold;
-}
-
-.status-not-sold {
-  color: red;
-  font-weight: bold;
-}
-
-.status-open {
-  color: orange;
-  font-weight: bold;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .lead-card {
-    margin-bottom: 15px;
-  }
-  .btn {
-    display: block;
-    width: 100%;
-    margin-bottom: 5px;
-  }
+  border-radius: 10px;
 }
