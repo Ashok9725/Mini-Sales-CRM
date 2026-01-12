@@ -17,7 +17,7 @@ A simple, web-based Customer Relationship Management (CRM) application focused o
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/your-username/mini-sales-crm.git
+   git clone https://github.com/Ashok9725/mini-sales-crm.git
    cd mini-sales-crm
 2. install dependency
       npm install
